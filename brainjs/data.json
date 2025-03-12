@@ -1,0 +1,42 @@
+[
+    {
+        "comment":"how long your code",
+        "topic":"softwere"
+    },
+    {
+        "comment":"os",
+        "topic":"softwere"
+    },
+    {
+        "comment":"i have so many apps ",
+        "topic":"softwere"
+    },
+    {
+        "comment":"my power supply getting hot",
+        "topic":"hardwere"
+    },
+    {
+        "comment":"i need new mouse",
+        "topic":"hardwere"
+    },
+    {
+        "comment":"i need new mouse driver",
+        "topic":"softwere"
+    },
+    {
+        "comment":"my pc has bugs",
+        "topic":"softwere"
+    },
+    {
+        "comment":"pc need new ram",
+        "topic":"hardwere"
+    },
+    {
+        "comment":"application crash",
+        "topic":"softwere"
+    },
+    {
+        "comment":"keyboad key are hard to click",
+        "topic":"hardwere"
+    }
+]
