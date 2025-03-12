@@ -1,0 +1,13 @@
+After Installing node libs 
+
+open up terminal in same directory and
+
+npm install dotenv express openai
+
+then
+
+npm start
+or
+npm dev
+
+visit: http://127.0.0.1:5000/
