@@ -2,7 +2,7 @@
 const fs = require('fs'); 
 
 //creating and reading file
-/* 
+
 fs.writeFile('node1.txt',"Node is backend server site language",(err)=>{
   if(err){
       console.log(err);
@@ -21,13 +21,12 @@ fs.writeFile('node1.txt',"Node is backend server site language",(err)=>{
   }
 });
 
- */
 //===============================
 
 //=========Reading files==========
 
 //reading as buffer
-/* 
+
 fs.readFile('node.txt',(err,file)=>{
     if(err){
         console.log(err);
@@ -44,20 +43,19 @@ fs.readFile('node.txt','utf8',(err,file)=>{
         console.log(`\n${file}`);
     }
 })
- */
 //==========Renaming file==============
-/* 
+
 fs.rename('test.txt','node.txt',(err)=>{
     if(err){
         console.log(err)
     }else{
         console.log('File renamed');
     }
-}) */
+}) 
 
 //=====appending files with new resource=========
 
-/* 
+
 fs.appendFile('node.txt',"\nSome new text,",(err)=>{
     if(err){
         console.log(err);
@@ -67,10 +65,8 @@ fs.appendFile('node.txt',"\nSome new text,",(err)=>{
 
 }); 
 
-*/
 
 //========delete file==========
-/* 
 fs.unlink('node1.txt',(err)=>{
     if(err){
         console.log(err);
@@ -78,10 +74,8 @@ fs.unlink('node1.txt',(err)=>{
         console.log('file deleted successfully')
     }
 });
- */
 
 //===========dir create and delete=====
-/* 
 fs.mkdir('node_tut',(err)=>{
     if(err){
         console.log(err)
@@ -89,8 +83,6 @@ fs.mkdir('node_tut',(err)=>{
         console.log('directory created');
     }
 });
- */
-/* 
 fs.rmdir('node_tut',(err)=>{
     if(err){
         console.log(err)
@@ -99,12 +91,11 @@ fs.rmdir('node_tut',(err)=>{
     }
 }); 
 
- */
 
 
 //=========create file under dir====
 
-/* 
+
  fs.writeFile('./node_tut/test.txt',"new node text",(err)=>{
     if(err){
         console.log(err);
@@ -113,10 +104,7 @@ fs.rmdir('node_tut',(err)=>{
     }
 }); 
 
- */
-
-//=========Remove file with directory=========
-/* 
+//=========Remove file with directory========= 
 fs.unlink('./node_tut/test.txt',err=>{
     if(err){
         console.log(err);
@@ -131,12 +119,9 @@ fs.unlink('./node_tut/test.txt',err=>{
         
     }
 });
-
- */
-
  //==================loop throw directroy and remove file======
 
-/* fs.readdir('textfiles',(err,files)=>{
+ fs.readdir('textfiles',(err,files)=>{
     if(err){
         console.log(err);
 
@@ -163,7 +148,7 @@ fs.unlink('./node_tut/test.txt',err=>{
        }
     }
 })
- */
+
 
 
 
